@@ -12,20 +12,24 @@
 	<dict>
 		<key>1F95519CEE87639A2ECDDEFCA2E381399DBE6D14</key>
 		<string>github.com:wizardplow/dumbgame.git</string>
+		<key>EFD77A55641EF2E5EA4A765808AC7ADF4CCE9262</key>
+		<string>https://github.com/blakeparkinson/sweeper.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>minesweeper/minesweeper.xcodeproj</string>
+	<string>minesweeper.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1F95519CEE87639A2ECDDEFCA2E381399DBE6D14</key>
-		<string>../../..</string>
+		<string>../../../Blake</string>
+		<key>EFD77A55641EF2E5EA4A765808AC7ADF4CCE9262</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:wizardplow/dumbgame.git</string>
+	<string>https://github.com/blakeparkinson/sweeper.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1F95519CEE87639A2ECDDEFCA2E381399DBE6D14</string>
+	<string>EFD77A55641EF2E5EA4A765808AC7ADF4CCE9262</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>1F95519CEE87639A2ECDDEFCA2E381399DBE6D14</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Blake</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EFD77A55641EF2E5EA4A765808AC7ADF4CCE9262</string>
+			<key>IDESourceControlWCCName</key>
+			<string>minesweeper</string>
 		</dict>
 	</array>
 </dict>

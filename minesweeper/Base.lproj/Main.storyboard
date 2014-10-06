@@ -42,12 +42,21 @@
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="New Game" id="H4i-AX-z2J"/>
+                                    <barButtonItem title="New Game" id="H4i-AX-z2J">
+                                        <connections>
+                                            <action selector="newGamePressed" destination="BYZ-38-t0r" id="IH5-zG-d2q"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="boardView" destination="YqO-tv-tTO" id="ysf-9E-ocz"/>
+                        <outlet property="movesLabel" destination="Qbg-Gh-EGe" id="TK8-nK-wFS"/>
+                        <outlet property="timeLabel" destination="8NJ-Kl-UM1" id="bRa-Ti-rax"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

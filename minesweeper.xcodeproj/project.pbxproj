@@ -13,6 +13,7 @@
 		25EA509819E24DF1003008F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25EA509719E24DF1003008F6 /* Images.xcassets */; };
 		25EA509B19E24DF1003008F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EA509919E24DF1003008F6 /* LaunchScreen.xib */; };
 		25EA50A719E24DF2003008F6 /* minesweeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA50A619E24DF2003008F6 /* minesweeperTests.swift */; };
+		25EA50B319E25B27003008F6 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA50B219E25B27003008F6 /* Square.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		25EA50A019E24DF2003008F6 /* minesweeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minesweeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EA50A519E24DF2003008F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25EA50A619E24DF2003008F6 /* minesweeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minesweeperTests.swift; sourceTree = "<group>"; };
+		25EA50B219E25B27003008F6 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				25EA509019E24DF1003008F6 /* AppDelegate.swift */,
 				25EA509219E24DF1003008F6 /* ViewController.swift */,
 				25EA509419E24DF1003008F6 /* Main.storyboard */,
+				25EA50B219E25B27003008F6 /* Square.swift */,
 				25EA509719E24DF1003008F6 /* Images.xcassets */,
 				25EA509919E24DF1003008F6 /* LaunchScreen.xib */,
 				25EA508E19E24DF1003008F6 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25EA50B319E25B27003008F6 /* Square.swift in Sources */,
 				25EA509319E24DF1003008F6 /* ViewController.swift in Sources */,
 				25EA509119E24DF1003008F6 /* AppDelegate.swift in Sources */,
 			);
