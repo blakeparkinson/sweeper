@@ -74,4 +74,12 @@ class Board {
         }
         return neighbors
     }
+    
+    func getTileAtLocation(row : Int, col : Int) -> Square? {
+        if row >= 0 && row < self.size && col >= 0 && col < self.size {
+            return squares[row][col]
+        } else {
+            return nil
+        }
+    }
 }
