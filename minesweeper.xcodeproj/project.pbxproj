@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		256950E119E3B58A004AA540 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256950E019E3B58A004AA540 /* Board.swift */; };
+		25DDE55419E3B9CF00B90B75 /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DDE55319E3B9CF00B90B75 /* SquareButton.swift */; };
 		25EA509119E24DF1003008F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA509019E24DF1003008F6 /* AppDelegate.swift */; };
 		25EA509319E24DF1003008F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA509219E24DF1003008F6 /* ViewController.swift */; };
 		25EA509619E24DF1003008F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EA509419E24DF1003008F6 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		256950E019E3B58A004AA540 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		25DDE55319E3B9CF00B90B75 /* SquareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
 		25EA508B19E24DF1003008F6 /* minesweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minesweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EA508F19E24DF1003008F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25EA509019E24DF1003008F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				25EA509419E24DF1003008F6 /* Main.storyboard */,
 				25EA50B219E25B27003008F6 /* Square.swift */,
 				256950E019E3B58A004AA540 /* Board.swift */,
+				25DDE55319E3B9CF00B90B75 /* SquareButton.swift */,
 				25EA509719E24DF1003008F6 /* Images.xcassets */,
 				25EA509919E24DF1003008F6 /* LaunchScreen.xib */,
 				25EA508E19E24DF1003008F6 /* Supporting Files */,
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25DDE55419E3B9CF00B90B75 /* SquareButton.swift in Sources */,
 				25EA50B319E25B27003008F6 /* Square.swift in Sources */,
 				25EA509319E24DF1003008F6 /* ViewController.swift in Sources */,
 				256950E119E3B58A004AA540 /* Board.swift in Sources */,
