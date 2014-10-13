@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    let BOARD_SIZE:Int = 10
+    var board:Board
+    var squareButtons:[SquareButton] = []
+    
+    required init(coder aDecoder: NSCoder)
+    {
+        self.board = Board(size: BOARD_SIZE)
+        super.init(coder: aDecoder)
+    }
+    
     @IBOutlet weak var boardView: UIView!
     @IBOutlet weak var movesLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
