@@ -67,8 +67,10 @@ class ViewController: UIViewController {
     }
     
     func squareButtonPressed(sender: SquareButton) {
-        println("Pressed row:\(sender.square.row), col:\(sender.square.col)”)
-            sender.setTitle("", forState: .Normal)
+        if(!sender.square.isRevealed) {
+            sender.square.isRevealed = true
+            sender.setTitle("\(sender.getLabelText())", forState: .Normal)
+        }
     }
     
 
