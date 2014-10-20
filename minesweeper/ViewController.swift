@@ -66,6 +66,11 @@ class ViewController: UIViewController {
         self.resetBoard()
     }
     
+    func squareButtonPressed(sender: SquareButton) {
+        println("Pressed row:\(sender.square.row), col:\(sender.square.col)”)
+            sender.setTitle("", forState: .Normal)
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
