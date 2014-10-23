@@ -76,10 +76,6 @@ class ViewController: UIViewController {
         }
     }
     
-    func startNewGame() {
-        //start new game
-        self.resetBoard()
-    }
     
     func squareButtonPressed(sender: SquareButton) {
         if(!sender.square.isRevealed) {
@@ -127,16 +123,16 @@ class ViewController: UIViewController {
         alertView.delegate = self
     }
     
-    func alertView(View: UIAlertView!, clickedButtonAtIndex buttonIndex: Int) {
-        //start new game when the alert is dismissed
-        self.startNewGame()
-    }
-    
     func startNewGame() {
         //start new game
         self.resetBoard()
         self.timeTaken = 0
         self.moves = 0
+    }
+    
+    func alertView(View: UIAlertView!, clickedButtonAtIndex buttonIndex: Int) {
+        //start new game when the alert is dismissed
+        self.startNewGame()
     }
     
 
