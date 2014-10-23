@@ -81,6 +81,7 @@ class ViewController: UIViewController {
     
     func squareButtonPressed(sender: SquareButton) {
         if(!sender.square.isRevealed) {
+            self.moves++
             sender.square.isRevealed = true
             sender.setTitle("\(sender.getLabelText())", forState: .Normal)
         }
