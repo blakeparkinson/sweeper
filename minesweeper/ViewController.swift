@@ -97,7 +97,7 @@ class ViewController: UIViewController {
         alertView.title = "Yowzerrr!"
         alertView.message = "You hit on a mine brah."
         alertView.show()
-        alertView.delegate = title
+        alertView.delegate = self
     }
     
     func alertView(View: UIAlertView!, clickedButtonAtIndex buttonIndex: Int) {
