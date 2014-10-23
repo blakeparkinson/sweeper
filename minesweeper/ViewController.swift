@@ -84,7 +84,7 @@ class ViewController: UIViewController {
             }
         }
         // case 3: there's a mine
-        return "M"
+        return "Mine"
     }
     
 
