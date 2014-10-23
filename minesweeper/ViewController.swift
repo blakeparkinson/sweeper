@@ -110,6 +110,12 @@ class ViewController: UIViewController {
     func oneSecond() {
         self.timeTaken++
     }
+    
+    func endCurrentGame() {
+        self.oneSecondTimer!.invalidate()
+        self.oneSecondTimer = nil
+    }
+    
     func minePressed() {
         // show an alert when you tap on a mine
         var alertView = UIAlertView()
