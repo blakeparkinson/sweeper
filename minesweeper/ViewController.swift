@@ -107,6 +107,9 @@ class ViewController: UIViewController {
         return "M"
     }
     
+    func oneSecond() {
+        self.timeTaken++
+    }
     func minePressed() {
         // show an alert when you tap on a mine
         var alertView = UIAlertView()
