@@ -71,6 +71,9 @@ class ViewController: UIViewController {
             sender.square.isRevealed = true
             sender.setTitle("\(sender.getLabelText())", forState: .Normal)
         }
+        if sender.square.isMineLocation {
+            self.minePressed()
+        }
     }
     func getLabelText() -> String {
         // check the isMineLocation and numNeighboringMines properties to determine the text to display
