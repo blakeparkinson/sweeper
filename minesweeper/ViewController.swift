@@ -117,6 +117,7 @@ class ViewController: UIViewController {
     }
     
     func minePressed() {
+        self.endCurrentGame()
         // show an alert when you tap on a mine
         var alertView = UIAlertView()
         alertView.addButtonWithTitle("New Game")
