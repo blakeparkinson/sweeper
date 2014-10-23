@@ -18,6 +18,19 @@ class ViewController: UIViewController {
     var board:Board
     var squareButtons:[SquareButton] = []
     
+    var moves:Int = 0 {
+        didSet {
+            self.movesLabel.text = "Moves: \(moves)"
+            self.movesLabel.sizeToFit()
+        }
+    }
+    var timeTaken:Int = 0  {
+        didSet {
+            self.timeLabel.text = "Time: \(timeTaken)"
+            self.timeLabel.sizeToFit()
+        }
+    }
+    
     
     required init(coder aDecoder: NSCoder)
     {
