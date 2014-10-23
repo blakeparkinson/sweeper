@@ -122,7 +122,7 @@ class ViewController: UIViewController {
         var alertView = UIAlertView()
         alertView.addButtonWithTitle("New Game")
         alertView.title = "Boom"!"
-        alertView.message = "You hit on a mine brah."
+        alertView.message = "You hit on a mine."
         alertView.show()
         alertView.delegate = self
     }
