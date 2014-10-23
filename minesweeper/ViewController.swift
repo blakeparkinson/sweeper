@@ -147,7 +147,7 @@ class ViewController: UIViewController {
     
     @IBAction func newGamePressed() {
         self.endCurrentGame()
-        println("new game")
+        println("starting new game")
         self.startNewGame()
     }
 
