@@ -99,6 +99,11 @@ class ViewController: UIViewController {
         alertView.show()
     }
     
+    func alertView(View: UIAlertView!, clickedButtonAtIndex buttonIndex: Int) {
+        //start new game when the alert is dismissed
+        self.startNewGame()
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
