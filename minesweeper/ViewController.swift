@@ -90,6 +90,7 @@ class ViewController: UIViewController {
         if sender.square.isMineLocation {
             self.minePressed()
         }
+        self.oneSecondTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("oneSecond"), userInfo: nil, repeats: true)
     }
     func getLabelText() -> String {
         // check the isMineLocation and numNeighboringMines properties to determine the text to display
