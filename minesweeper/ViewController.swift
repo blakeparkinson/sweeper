@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var movesLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
     
+    var oneSecondTimer:NSTimer?
+    
     let BOARD_SIZE:Int = 10
     var board:Board
     var squareButtons:[SquareButton] = []
