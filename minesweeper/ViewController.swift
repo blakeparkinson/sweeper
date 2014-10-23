@@ -118,6 +118,13 @@ class ViewController: UIViewController {
         self.startNewGame()
     }
     
+    func startNewGame() {
+        //start new game
+        self.resetBoard()
+        self.timeTaken = 0
+        self.moves = 0
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
