@@ -121,7 +121,7 @@ class ViewController: UIViewController {
         // show an alert when you tap on a mine
         var alertView = UIAlertView()
         alertView.addButtonWithTitle("New Game")
-        alertView.title = "Boom"!"
+        alertView.title = "Boomz!"
         alertView.message = "You hit on a mine."
         alertView.show()
         alertView.delegate = self
