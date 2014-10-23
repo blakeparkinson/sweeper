@@ -90,6 +90,15 @@ class ViewController: UIViewController {
         return "M"
     }
     
+    func minePressed() {
+        // show an alert when you tap on a mine
+        var alertView = UIAlertView()
+        alertView.addButtonWithTitle("New Game")
+        alertView.title = "Yowzerrr!"
+        alertView.message = "You hit on a mine brah."
+        alertView.show()
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
