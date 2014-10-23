@@ -94,7 +94,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func newGamePressed() {
-        println("new game");
+        println("new gamef")
+        self.startNewGame()
     }
 
 
