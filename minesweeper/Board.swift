@@ -82,4 +82,11 @@ class Board {
             return nil
         }
     }
+    class WindowDelegate: NSObject, NSWindowDelegate {
+    func windowWillClose(notification: NSNotification?) {
+        NSApplication.sharedApplication().terminate(0)
+    }
+}
+let windowDelegate = WindowDelegate()
+window.delegate = windowDelegate
 }
