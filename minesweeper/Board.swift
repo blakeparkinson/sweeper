@@ -63,7 +63,7 @@ class Board {
         let adjacentOffsets =
         [(-1,-1),(0,-1),(1,-1),
             (-1,0),(1,0),
-            (-1,1),(0,1),(1,1)]
+            (-1,1),(0,1),(1,2)]
         for (rowOffset,colOffset) in adjacentOffsets {
             // getTileAtLocation might return a Square, or it might return nil, so use the optional datatype "?"
             let optionalNeighbor:Square? = getTileAtLocation(square.row+rowOffset, col: square.col+colOffset)
